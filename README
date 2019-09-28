@@ -1,0 +1,53 @@
+C18111 – Software for prototyping numerical solvers for PDEs has been acknowledged by NNSA for open source release
+
+Copyright Notice:
+
+ © (or copyright) 2019. Triad National Security, LLC. All rights reserved.
+
+This program was produced under U.S. Government contract 89233218CNA000001 for Los Alamos National Laboratory (LANL), which is operated by Triad National Security, LLC for the U.S. Department of Energy/National Nuclear Security Administration. All rights in the program are reserved by Triad National Security, LLC, and the U.S. Department of Energy/National Nuclear Security Administration. The Government is granted for itself and others acting on its behalf a nonexclusive, paid-up, irrevocable worldwide license in this material to reproduce, prepare derivative works, distribute copies to the public, perform publicly and display publicly, and to permit others to do so.
+
+Content of this directory 
+ 
+mesh3D.hh               
+-->dataset.hh              
+
+edge3D.hh               
+face3D.hh               
+regn3D.hh
+vrtx3D.hh
+
+builder.hh              
+-->build_edge.hh           
+-->build_face.hh           
+-->build_geom.hh           
+
+quad_regn.hh
+-->tetgen.h
+
+mesh3D_greader.hh       
+mesh3D_writer.hh        
+mesh3D_GMV_output.hh    
+
+master.hh               
+printer.hh              
+
+main0.cc                
+main1.cc                
+main2.cc --> layered meshes
+
+main_dualize2.cc        
+-->mesh3D_dualize2.hh (AUX)
+
+main_dual_voro.cc       
+-->mesh3D_dualize_voro.hh (AUX)
+(non funziona come dovrebbe)
+
+main_dual_octa.cc       
+-->mesh3D_dualize_octa.hh (AUX) 
+
+main_tetra_quad.cc      
+-->poly.hh (AUX)
+
+TMP-DIR (esempi)
+OLD                     
+TRASH                   
